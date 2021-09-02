@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" href="images/logo1.png">
+    <link rel="stylesheet" href="https://bootswatch.com/5/litera/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>WiBlog</title>
+
+    <style>
+        .hero-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/etretat-1292799_1920.jpg");
+            height: 90%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        .image-credit {
+            text-align: center;
+            position: absolute;
+            top: 95%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 10px;
+        }
+
+		p{
+			font-family: 'Roboto Slab', serif;
+		}
+
+		#myBtn {
+			display: none;
+			position: fixed;
+			bottom: 20px;
+			right: 30px;
+			z-index: 99;
+			font-size: 18px;
+			border: none;
+			outline: none;
+			background-color: transparent;
+			color: black;
+			cursor: pointer;
+			padding: 15px;
+			border-radius: 4px;
+		}
+
+		#myBtn:hover {
+			background-color: lightgrey;
+		}
+
+		body, html {
+			scroll-behavior: smooth;
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+		}
+
+		/* width */
+		::-webkit-scrollbar {
+			width: 10px;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+			background: #f1f1f1; 
+		}
+		
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+			background: #888; 
+		}
+
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+			background: #555; 
+		}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
+        <a class="navbar-brand p-2" href="#">
+            <img src="images/logo1.png" alt="logo" width="40" height="40">
+            <span class="h2 align-middle ml-2 text-dark strong-fontsize">WiBlog</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarColor03">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bag-1"><i class="fa fa-user" aria-hidden="true"></i> About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bag-2"><i class="fa fa-university" aria-hidden="true"></i> College</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px">Welcome To WiBlog</h1>
+            <p>Feel Free To Explore</p>
+        </div>
+        <div>
+            <p class="image-credit">Image by: <a href="https://pixabay.com/id/users/453169-453169/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1292799" target="_blank" style="color:darkkhaki;">453169</a> Source: <a href="https://pixabay.com/id/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1292799" target="_blank" style="color:darkkhaki;">Pixabay</a></p>
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <div data-aos="zoom-in"  data-aos-duration="2500" class="row featurette" style="margin-top:70px;">
+            <h2 class="my-5 featurette-heading" style="padding-top:70px;">Welcome to WiBlog !!!</h2>
+            <p class="lead" style="text-align: justify;">Selamat datang di blog pribadi saya yang bernama WiBlog. WiBlog merupakan sebuah media blog yang saya kelola sendiri yang memiliki konten terkait kegiatan yang telah saya lakukan. Jadi, dengan adanya blog ini kalian dapat mengetahui beberapa aktivitas yang telah saya lakukan dan mungkin juga dapat berkenalan dengan saya apabila beruntung. Silahkan melihat-lihat blog ini ^_^.</p>
+        </div>
+
+        <hr data-aos="zoom-in" data-aos-duration="2500"  class="featurette-divider" style="margin-top:100px;">
+
+        <div data-aos="fade-right" data-aos-duration="2500" class="row featurette" style="margin-top:70px;" id="bag-1">
+            <div class="col-md-7">
+                <h2 class="featurette-heading" style="margin-top:70px;">About Me<span class="text-muted"></span></h2>
+                <br>
+                <p class="lead">Perkenalkan, nama saya Willioms Sanjaya, seorang laki-laki yang lahir pada bulan Agustus. Saya lahir di Jakarta dan menetap di sana semenjak lahir hingga SMP kelas 2. Setelah itu saya pindah dan tinggal di Medan hingga saat ini. Saya pernah bersekolah di TK-SD-SMP Providentia Jakarta Barat dan SMP-SMA Methodist-4 Medan. Saat ini saya merupakan seorang mahasiswa di salah satu perguruan tinggi negeri di Kota Medan, yaitu Universitas Sumatera Utara (USU). Lebih tepatnya saya adalah mahasiswa program studi Teknologi Informasi USU stambuk 2019.</p>
+                <p class="lead">Hal yang saya gemari sepertinya adalah menonton film, memperhatikan suatu cerita, melihat suatu kreasi, dan bermain game. Salah satu hal mengenai diri saya yang mungkin terdengar agak aneh adalah saya jarang berinteraksi di media sosial. Meskipun begitu, apabila kalian tertarik berkenalan lebih lanjut dengan saya, kalian dapat mengunjungi halaman github saya untuk berkenalan. Itu saja perkenalan dari saya, salam kenal semua ^_^.</p>
+                <a href="https://github.com/Oskw-sc" target="_blank" style="color:rgb(51, 51, 51);"><i class="fa fa-github fa-2x" aria-hidden="true"></i><small style="font-family: 'Roboto Slab' serif; font-size: 30px;"> Github</small></a>
+            </div>
+            <div class="col-md-5" style="margin-top:150px;">
+                <img src="images/foto3.png" width="400" height="400">
+            </div>
+        </div>
+        
+        <hr data-aos="zoom-in" data-aos-duration="2500"  class="featurette-divider" style="margin-top:100px;">
+        
+        <div data-aos="fade-left" data-aos-duration="2500" class="row featurette" style="margin-top:70px;" id="bag-2">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading" style="margin-top:70px;">My College Exprience<span class="text-muted"></span></h2>
+                <br>
+                <p class="lead">Pada bagian ini saya akan menceritakan pengalaman saya mengenai kuliah. Pengalaman ini terbagi menjadi 2 bagian, yaitu pengalaman saat kuliah online dan offline. Semasih kuliah secara offline (langsung), hal yang saya rasakan adalah dapat bertemu dengan orang-orang baru dan juga merasakan lingkungan baru. Pengalaman yang saya rasa cukup menarik adalah sewaktu saya melihat dan menjadi partisipan dalam uji coba pengembangan teknologi VR di ruang ITIKOM Fasilkom-TI. Sementara sewaktu kuliah online, memang terasa sensasi lingkungan yang cukup berbeda. Meskipun begitu, esensi dari kuliahnya tetap dilakukan walaupun terkadang terdapat beberapa hal yang dirasa sedikit kurang dipahami sendiri. Sisi positif yang saya rasakan dari metode online ini adalah peningkatan kemampuan saya dalam melakukan pencarian di internet.</p>
+                <p class="lead">Untuk minat di bidang IT sebenarnya saya masih belum begitu yakin. Tetapi, belakangan ini saya cukup tertarik saat melihat berbagai konten kreatif yang dapat diciptakan, yang mana mungkin termasuk ke dalam bagian multimedia. Sekian cerita mengenai pengalaman kuliah yang telah saya alami.</p>
+            </div>
+            <div class="col-md-5 order-md-1" style="margin-top:150px;">
+                <img src="images/lab1.png" width="400" height="400">
+            </div>
+        </div>
+
+        <hr data-aos="zoom-in" data-aos-duration="2500"  class="featurette-divider" style="margin-top:100px;">
+        
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+
+    <footer class="bg-light py-4 text-center" style="margin-top: 120px;">
+        <p class="text-dark my-4" href="#" target="_blank" data-toggle="tooltip" data-placement="top">
+            <img class="navbar-logo" src="images/logo1.png" height="40" width="40" alt="Logo">
+            <span class="align-middle h3">WiBlog</span>
+        </p>
+        <p class="text-dark h5 my-4">&copy; <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> Copyright</p>
+    </footer>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
